@@ -1,0 +1,11 @@
+{
+  "name": "grunt_project",
+  "version": "1.0.0",
+  "description": "A grunt boilerplate for my projects to compile and watch sass changes.",
+  "author": "Tyler Ipson",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1"
+  }
+}

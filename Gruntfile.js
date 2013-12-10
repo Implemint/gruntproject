@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd: 'assets/styles/sass',
-					src: ['*.sass', '!_*.sass'],
+					src: ['*.{sass, scss}', '!_*.{sass, scss}'],
 					dest: 'assets/styles/',
 					ext: '.css'
 				}]
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 				livereload: true
 			},
 			sass: {
-				files: ['assets/styles/sass/**/*.sass'],
+				files: ['assets/styles/sass/**/*.{sass, scss}'],
 				tasks:['sass']
 			},
 			livereload: {
